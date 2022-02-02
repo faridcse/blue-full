@@ -1,1 +1,1 @@
-# blue-full
+https://faridcse.github.io/blue-full/
