@@ -1,0 +1,276 @@
+/*common css start */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/* common css end */
+
+/* header css start */
+
+header{
+	padding: 10px 0;
+	background-color: #121b2a;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 20px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.menu ul li a:hover{
+	color: #0177bd;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/* header css end */
+
+/* banner section css start */
+.banner{
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	/* min-height: 545px; */
+}
+.banner-content{
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 45%;
+}
+.banner-content p:first-child {
+	font-size: 40px;
+	color: #fff;
+	margin: 0;
+}
+
+.banner-content p:nth-last-child(2) {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #fff;
+	margin-top: 5px;
+}
+.banner-content h1{
+	font-size: 40px;
+	color: #0177bd;
+	margin: 0;
+}
+
+.banner-content button{
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #595959;
+	padding: 17px 50px;
+	border-radius: 5px;
+}
+.banner-content button span{
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #0177bd;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+/* banner section css end */
+
+/* service section css start */
+.service{
+	background-color: #121b2c;
+	padding: 50px 0;
+}
+.service .container{
+
+}
+.single{
+	width: 28%;
+	padding: 10px 25px;
+	float: left;
+}
+.title{
+	overflow: hidden;
+}
+.icon{
+	width: 25%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+.icon-content{
+	width: 65%;
+	margin-left: 10px;
+	float: left;
+}
+.icon-content h1{
+    color: #fff;
+    margin: 0;
+}
+.icon-content h2{
+    color: #0177bd;
+    margin: 5px 0;
+}
+.icon-content :nth-child(3) h2{
+	margin-top: 50px;
+}
+.content{}
+.content p{
+    color: #fff;
+    line-height: 1.5;
+    border-right: 1px solid #ffff;
+}
+
+/* service section css end */
+
+/* about section css start */
+.about{
+	background-color: #040811;
+	padding: 50px 0;
+}
+.address{
+	float: left;
+	width: 30%;
+}
+.address h2{
+	color: #fff;
+}
+.address h2 span{
+	color: #0075b8;
+}
+.address p{
+	color: #fff;
+	font-size: 14px;
+}
+
+.testimonial{
+	float: left;
+	width: 30%;
+}
+.customer-talk{
+	background-color: #0c1019;
+	padding: 15px 10px;
+}
+.customer-talk h3{
+	color: #fff;
+}
+.customer-talk h3 span{
+	color: #0177bd;
+}
+.customer-talk p{
+	color: #b8b8ba;
+	font-size: 14px;
+}
+.customer-info{
+    font-size: 14px;
+}
+.customer-info h4{color: #fff;margin-bottom: 0;}
+.customer-info p{}
+.customer-info p a{
+	text-decoration: none;
+	color: #fff;
+	margin-top: 0;
+}
+.edge-apps{
+	width: 30%;
+	padding: 0 50px;
+	overflow: hidden;
+}
+.apps-image{
+	float: left;	
+}
+.apps-image img{
+	width: 100%;
+}
+.apps-details{
+	float: left;
+}
+.apps-details h3{
+	color: #fff;
+	margin: 0 25px;
+}
+.apps-details h2{
+	color: #013b60;
+	margin: 10px 25px;
+}
+.apps-details .appstore{
+    margin-left: 25px;
+}
+.apps-details .appstore img{
+	width: 100%;
+}
+
+/* about section css end */
+
+
+/* footer section css start */
+footer{
+	background-color: #121b2c;
+	padding: 30px 0;
+}
+.footer-left{
+	float: left;
+	width: 65%;
+}
+
+.footer-left ul{
+    display: inline;
+}
+.footer-left ul li{
+	list-style: none;
+	float: left;
+}
+
+.footer-left ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 20px;
+	border-right: 1px solid #fff;
+	color: #fff;
+}
+.footer-left ul li:first-child a{
+	padding-left: 0;
+}
+
+.footer-left ul li:last-child a{
+	border-right: none;
+}
+
+.footer-left p{
+	color: #fff;
+} 
+.footer-right{
+	float: left;
+	width: 30%;
+}
+/* footer section css end
