@@ -194,11 +194,11 @@ header{
 }
 
     #talkbubble{
-      width: 65%;
+      width: 94%;
       height: auto;
       background: #0c1019;
       position: relative;
-      padding: 35px;
+      padding: 25px;
       border-radius: 15px;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
@@ -211,9 +211,9 @@ header{
       top: 175px;
       width: 0;
       height: 0;
-      border-left: 1px solid transparent;
-      border-right: 80px solid transparent;
-      border-top: 30px solid #0c1019;
+      border-left: 0px solid transparent;
+      border-right: 55px solid transparent;
+      border-top: 45px solid #0c1019;
     }
 
 .customer-info{
@@ -228,7 +228,8 @@ header{
 }
 .edge-apps{
 	width: 30%;
-	padding: 0 50px;
+	/* padding: 0 70px; */
+	padding-left: 100px;
 	overflow: hidden;
 }
 .apps-image{
@@ -264,7 +265,7 @@ footer{
 }
 .footer-left{
 	float: left;
-	width: 65%;
+	width: 70%;
 }
 
 .footer-left ul{
@@ -295,6 +296,6 @@ footer{
 } 
 .footer-right{
 	float: left;
-	width: 30%;
+	width: 25%;
 }
 /* footer section css end
