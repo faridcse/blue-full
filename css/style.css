@@ -7,7 +7,6 @@ body{
 /* common css end */
 
 /* header css start */
-
 header{
 	padding: 10px 0;
 	background-color: #121b2a;
@@ -182,7 +181,9 @@ header{
 	padding: 15px 10px;
 }
 .customer-talk h3{
+	margin-top: 0;
 	color: #fff;
+	margin: 0;
 }
 .customer-talk h3 span{
 	color: #0177bd;
@@ -191,6 +192,30 @@ header{
 	color: #b8b8ba;
 	font-size: 14px;
 }
+
+    #talkbubble{
+      width: 80%;
+      height: auto;
+      background: #0c1019;
+      position: relative;
+      padding: 35px;
+      border-radius: 15px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+    }
+    #talkbubble:before{
+      content: "";
+      position: absolute;
+      right: 10%;
+      top: 165px;
+      width: 0;
+      height: 0;
+      border-left: 1px solid transparent;
+      border-right: 80px solid transparent;
+      border-top: 30px solid #0c1019;
+    }
+
 .customer-info{
     font-size: 14px;
 }
@@ -229,7 +254,6 @@ header{
 .apps-details .appstore img{
 	width: 100%;
 }
-
 /* about section css end */
 
 
