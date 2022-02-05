@@ -113,9 +113,10 @@ header{
 
 }
 .single{
-	width: 28%;
-	padding: 10px 25px;
+	width: 30%;
+	padding: 10px 15px;
 	float: left;
+	border-right: 1px solid rgb(255 255 255 / 10%);
 }
 .title{
 	overflow: hidden;
@@ -147,7 +148,6 @@ header{
 .content p{
     color: #fff;
     line-height: 1.5;
-    border-right: 1px solid #ffff;
 }
 
 /* service section css end */
